@@ -1,0 +1,37 @@
+@import "./partials/bootstrap-overrides";
+
+body{
+    nav{
+        .navDropBtn{
+            border:0;
+            background-color: #212529;
+            img{
+                width: 2rem;
+            }
+        }
+        #dropdownUserProfile ~ ul {
+            left: -200%;
+            text-align: center;
+        }
+       
+
+    }
+     .dropdown-item:hover{
+            background-color: #858585;
+    }
+        
+
+    footer{
+
+        color: #858585;
+        svg{
+            fill: #858585;
+        }
+        a{
+            color: #858585;
+            text-decoration: none;
+        }
+
+    }
+
+}
