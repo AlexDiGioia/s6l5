@@ -12660,4 +12660,12 @@ body footer button {
   .carousel-inner .carousel-item-prev {
     transform: translateX(25%);
   }
+}
+@media screen and (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
 }/*# sourceMappingURL=style.css.map */
