@@ -19,6 +19,13 @@ body{
      .dropdown-item:hover{
             background-color: #858585;
     }
+    main{
+        .carousel-inner .carousel-item.active,
+        .carousel-inner .carousel-item-next,
+        .carousel-inner .carousel-item-prev{
+            display: flex;
+        }
+    }
         
 
     footer{

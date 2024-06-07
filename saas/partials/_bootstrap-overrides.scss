@@ -37,6 +37,16 @@ $custom-font-sizes:(
 );
 $font-sizes: map-merge($font-sizes, $custom-font-sizes);
 
+$custom-spacers: (
+  6: 6rem,
+  7: 7rem,
+  8: 25rem,
+  9: 12rem,
+  10: 35rem,
+);
+
+$spacers: map-merge($spacers, $custom-spacers);
+
 
 
 // 5. Include remainder of required parts
