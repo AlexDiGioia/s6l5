@@ -12646,7 +12646,18 @@ body footer a {
   color: #858585;
   text-decoration: none;
 }
+body footer button {
+  color: #858585;
+  --bs-border-color: #858585;
+}
 
-* {
-  margin: 0;
+@media screen and (min-width: 768px) {
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+  .carousel-inner .carousel-item-start.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(25%);
+  }
 }/*# sourceMappingURL=style.css.map */
